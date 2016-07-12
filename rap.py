@@ -39,6 +39,7 @@ def main(argv):
         if REGEX_PUNC.match(next):
             print out
             out = ''
+        print out
     
   
 if __name__ == '__main__':
